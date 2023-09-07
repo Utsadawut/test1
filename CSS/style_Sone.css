@@ -223,14 +223,14 @@ a:hover.link_T-black14 {
 .formLogintype {
 	background-color: #ffffff;
 	border: #f05a28 solid 1px;
-	width: 140px;
+	width: 100%;
 	height: 25px;
 }
 .formLoginsend {
 	background-color: #ffffff;
 	border: 1px solid #f05a28;
-	width: 155px;
-	height: 21px;
+	width: 100%;
+	height: 20%;
 }
 .btnGoset{
 	border: 1px solid #f05a28;
