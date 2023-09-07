@@ -368,6 +368,7 @@ img.setImg {
 }
 .body1{
 	display: none;
+	grid-template-columns: 1fr 1fr;
 }
 #scrollToTopButton {
     display: none; 
@@ -388,7 +389,12 @@ img.setImg {
 	text-align: center;
 	width: 50px;
   }
-
+.listItem1 {
+	display: none;
+}
+.listItem2{
+	width: auto;
+}
 
 /***************** #content ******************/
 @media only screen and (max-width: 991.5px) {
@@ -453,6 +459,8 @@ img.setImg {
 		top: -20px;
 	}
 	.listItem1 {
+		
+		display: block;
 		width: auto;
 	}
 	.showLogo2 {
@@ -530,6 +538,15 @@ img.setImg {
 	.back-to-top{
 		display: block;
 	}
+	.listItem2 {
+		display: none;
+	}
+	.showT1{
+		display: none;
+		height: 0px;
+		width: 0px;
+	}
+
 }
 
 @media only screen and (max-width: 765px) {
@@ -631,8 +648,8 @@ img.setImg {
 		position: absolute;
 		top: -50px;
 	}
-	.listItem1 {
-		width: auto;
+	.listItem2 {
+		display: none;
 	}
 	.showLogo2 {
 		width: auto;
